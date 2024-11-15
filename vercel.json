@@ -13,8 +13,8 @@
         }
     ],
     "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_ENV": "local",
+        "APP_DEBUG": "true",
         "APP_URL": "https://your-vercel-deployment-url.vercel.app",
         "APP_KEY": "your-app-key-placeholder",
         "APP_CONFIG_CACHE": "/tmp/config.php",
