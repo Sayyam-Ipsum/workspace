@@ -31,16 +31,16 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav px-0 px-md-3 bg-gradient-primary sidebar sidebar-dark accordion " id="accordionSidebar">
+        <ul class="navbar-nav px-3 bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="px-3 px-md-0 sidebar-brand d-flex align-items-center justify-content-between gap-3" href="index.html">
-                <div class="sidebar-brand-icon d-flex justify-content-between">
+            <a class="sidebar-brand d-flex align-items-center justify-content-between gap-3" href="index.html">
+                <div class="sidebar-brand-icon d-flex">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                     <img src="{{ url('assets/img/Logo.svg')}}" alt="" class="mr-9px">
+                     <img src="{{ url('assets/img/Logo.svg') }}" alt="" class="mr-9px">
                      <div class="sidebar-brand-text ">My Worksapce</div>
                     </div>
-                    <img src="{{ url('assets/img/_Avatar.svg')}}" alt="" class="mr-9px">
+                    <img src="{{ url('assets/img/_Avatar.svg') }}" alt="" class="mr-9px">
 
             </a>
             <form
@@ -48,49 +48,52 @@
             <div class="search-group">
                 <div class="input-group-append">
                     <button class="search-button" type="button">
-                         <img src="{{ url('assets/img/search-icon.svg')}}" alt="">
+                         <img src="{{ url('assets/img/search-icon.svg') }}" alt="">
                     </button>
                 </div>
-                <input type="text" class="search-input form-control border-0 small"
+                <input type="text" class="search-input border-0 small"
                     aria-label="Search" aria-describedby="basic-addon2">
 
             </div>
         </form>
-
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class=" Dashboard active ">
-                <a class=" " href="index.html">
-                     <img src="{{ url('assets/img/Dashboard-icon.svg')}}" alt="" class="mr-10px">
-                    <span style="">Dashboard</span></a>
+            <li class="nav-item active Dashboard">
+                <a class="nav-link " href="index.html">
+                     <img src="{{ url('assets/img/Dashboard-icon.svg') }}" alt="" class="mr-10px">
+                    <span style="font-size: 13px; color: #D2D3E0; font-weight: 500;">Dashboard</span></a>
             </li>
 
+            <!-- Divider -->
+            <hr class="sidebar-divider">
 
 
 
             <!-- Nav Item - Analysis Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed d-md-flex flex-md-row justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                <a class="nav-link collapsed d-flex justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <div class="d-flex flex-column flex-md-row align-items-center ">
-                     <img src="{{ url('assets/img/Analysis.svg')}}" alt="" class="link-icon">
+                    <div class="d-flex align-items-center ">
+                     <img src="{{ url('assets/img/Analysis.svg') }}" alt="" class="mr-10px">
                     <span>Analysis</span>
                     </div>
-                    <i class="fas fa-angle-down d-none d-md-block"></i>
+                    <i class="fas fa-angle-down"></i>
 
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" >
-                    <div class="bg-gradient-primary py-2 px-2 md-px-0 collapse-inner rounded">
+                    <div class=" py-2 collapse-inner rounded">
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/user-analysis.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/user-analysis.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">User Analysis</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/content-analysis.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/content-analysis.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Content Analysis</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/survey-report.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/survey-report.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Survey Report</a>
                         </div>
 
@@ -100,27 +103,27 @@
 
             <!-- Nav Item - Management Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed d-md-flex flex-md-row justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                <a class="nav-link collapsed d-flex justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <div class="d-flex flex-column flex-md-row align-items-center ">
-                         <img src="{{ url('assets/img/Management.svg')}}" alt="" class="link-icon">
+                    <div class="d-flex align-items-center ">
+                         <img src="{{ url('assets/img/Management.svg') }}" alt="" class="mr-10px">
                         <span>Management</span>
                         </div>
-                        <i class="fas fa-angle-down d-none d-md-block"></i>
+                        <i class="fas fa-angle-down"></i>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     >
-                    <div class="bg-gradient-primary py-2 px-2 md-px-0 collapse-inner rounded">
+                    <div class=" py-2 collapse-inner rounded">
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/content-upload.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/content-upload.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Content Upload</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Content-managemnt.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Content-managemnt.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Content Management</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Category-and-tags.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Category-and-tags.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Category And Tags</a>
                         </div>
 
@@ -129,35 +132,35 @@
             </li>
             <!-- Nav Item - Affiliate Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed d-md-flex flex-md-row justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseAffiliate"
+                <a class="nav-link collapsed d-flex justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseAffiliate"
                     aria-expanded="true" aria-controls="collapseAffiliate">
-                    <div class="d-flex flex-column flex-md-row align-items-center ">
-                         <img src="{{ url('assets/img/Affiliate.svg')}}" alt="" class="link-icon">
+                    <div class="d-flex align-items-center ">
+                         <img src="{{ url('assets/img/Affiliate.svg') }}" alt="" class="mr-10px">
                         <span>Affiliate</span>
                         </div>
-                        <i class="fas fa-angle-down d-none d-md-block"></i>
+                        <i class="fas fa-angle-down"></i>
                 </a>
                 <div id="collapseAffiliate" class="collapse" aria-labelledby="headingAffiliate"
                    >
-                    <div class="bg-gradient-primary py-2 px-2 md-px-0 collapse-inner rounded">
+                    <div class=" py-2 collapse-inner rounded">
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Analysis.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Analysis.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Analytics</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Campaign.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Campaign.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Campaign </a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Affiliate.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Affiliate.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Affiliate</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Sales-and-commissions.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Sales-and-commissions.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Sales And Commissions</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ url('assets/img/Settings.svg')}}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Settings.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Settings</a>
                         </div>
 
@@ -168,57 +171,37 @@
 
 
             <li class="nav-item">
-                <a class="nav-link  d-md-flex flex-md-row justify-content-between align-items-center" href="#"
-                aria-expanded="true" aria-controls="collapseAffiliate">
-                <div class="d-flex flex-column flex-md-row align-items-center ">
-                     <img src="{{ url('assets/img/Api-management.svg')}}" alt="" class="link-icon">
-                    <span>API Management</span>
-                    </div>
-
-            </a>
+                <a class="nav-link" href="#">
+                    <img src="{{ url('assets/img/Api-management.svg') }}" alt="">
+                    <span>API Management</span></a>
             </li>
 
 
 
 
              <!-- Nav Item - Invite People -->
-
-             <li class="nav-item">
-                <a class="nav-link  d-md-flex flex-md-row align-items-center " href="#" aria-expanded="true" aria-controls="collapseAffiliate">
-                <div class="d-flex flex-column flex-md-row align-items-center ">
-                    <img src="{{ url('assets/img/Invite-people.svg')}}" alt="" class="link-icon">
-                    <span style="font-size: 12px !important; color: #858699;;">Invite People</span>
-                    </div>
-
-            </a>
-            </li>
-              <!-- Nav Item - Help and support -->
-             <li class="nav-item">
-                <a class="nav-link  d-md-flex flex-md-row align-items-center " href="#"
-                aria-expanded="true" aria-controls="collapseAffiliate">
-                <div class="d-flex flex-column  flex-md-row align-items-center ">
-                    <img src="{{ url('assets/img/Help-and-support.svg')}}" alt="" class="link-icon">
-                    <span style="font-size: 12px !important; color: #858699;padding: 0px 2px;">Help And Support</span>
-
-                    </div>
-
-            </a>
-            </li>
-
-
-
-
+             <li class="nav-item" style="margin-bottom: 10px !important;padding-right: 7px !important;">
+                 <a class="nav-link"  href="tables.html">
+                      <img src="{{ url('assets/img/Invite-people.svg') }}" alt="">
+                     <span style="font-size: 12px !important; color: #858699;;">Invite People</span></a>
+             </li>
+               <!-- Nav Item - Help and support -->
+             <li class="nav-item" style="margin-bottom: 10px !important;padding-right: 7px !important;">
+                 <a class="nav-link" href="tables.html">
+                      <img src="{{ url('assets/img/Help-and-support.svg') }}" alt="">
+                     <span style="font-size: 12px !important; color: #858699;">Help And Support</span></a>
+             </li>
 
              <!-- app version -->
-              <div class="app-version-heading d-none d-lg-flex">
+              <div class="app-version-heading">
                 App Version 3.1
               </div>
             <!-- Sidebar Message -->
             <div class="sidebar-card d-none d-lg-flex ">
                 <div class="cross ">
-                    <img src="{{ url('assets/img/cross.svg')}}" alt="">
+                    <img src="{{ url('assets/img/cross.svg') }}" alt="">
                 </div>
-                <img src="{{ url('assets/img/Import-Issues.svg')}}" alt="" class="align-self-start">
+                <img src="{{ url('assets/img/Import-Issues.svg') }}" alt="" class="align-self-start">
                <div class="message-card-container">
                 <h4 class="message-card-h4">Import Issues</h4>
                 <p style="font-size: 11px;font-weight: 400;color: #858699; line-height: 12.1px;">Use our Migration Assistant to copy issues from another service.</p>
@@ -238,11 +221,8 @@
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand  topbar  static-top">
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
                     <button class="back-button">
-                         <img src="{{ url('assets/img/Back-icon.svg')}}" alt="">
+                         <img src="{{ url('assets/img/Back-icon.svg') }}" alt="">
                         Back
                     </button>
 
@@ -261,12 +241,12 @@
                         </div>
                         <div class="date-wrapper">
                             <div>
-                                <img src="{{ url('assets/img/Date.svg')}}" alt="">
+                                <img src="{{ url('assets/img/Date.svg') }}" alt="">
                                 <p>Jan 2, 2024</p>
                             </div>
                             <div>
                                 <p>Last 30 Days</p>
-                                <img src="{{ url('assets/img/a-down.svg')}}" alt="">
+                                <img src="{{ url('assets/img/a-down.svg') }}" alt="">
                             </div>
                         </div>
 
