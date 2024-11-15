@@ -12,7 +12,7 @@
     <title> Dashboard</title>
 
     <!-- Custom fonts for this Dashboard-->
-    <link href="{{ asset('assets/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ url('assets/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -20,8 +20,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!-- Custom styles for this Dashboard-->
-    <link href="{{ asset('assets/css/sb-admin-2.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ url('assets/css/sb-admin-2.css') }}" rel="stylesheet">
+    <link href="{{ url('assets/css/custom.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
@@ -40,7 +40,7 @@
                      <img src="{{ url('assets/img/Logo.svg') }}" alt="" class="mr-9px">
                      <div class="sidebar-brand-text ">My Worksapce</div>
                     </div>
-                    <img src="{{ asset('assets/img/_Avatar.svg') }}" alt="" class="mr-9px">
+                    <img src="{{ url('assets/img/_Avatar.svg') }}" alt="" class="mr-9px">
 
             </a>
             <form
@@ -48,7 +48,7 @@
             <div class="search-group">
                 <div class="input-group-append">
                     <button class="search-button" type="button">
-                         <img src="{{ asset('assets/img/search-icon.svg') }}" alt="">
+                         <img src="{{ url('assets/img/search-icon.svg') }}" alt="">
                     </button>
                 </div>
                 <input type="text" class="search-input border-0 small"
@@ -62,7 +62,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active Dashboard">
                 <a class="nav-link " href="index.html">
-                     <img src="{{ asset('assets/img/Dashboard-icon.svg') }}" alt="" class="mr-10px">
+                     <img src="{{ url('assets/img/Dashboard-icon.svg') }}" alt="" class="mr-10px">
                     <span style="font-size: 13px; color: #D2D3E0; font-weight: 500;">Dashboard</span></a>
             </li>
 
@@ -76,7 +76,7 @@
                 <a class="nav-link collapsed d-flex justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <div class="d-flex align-items-center ">
-                     <img src="{{ asset('assets/img/Analysis.svg') }}" alt="" class="mr-10px">
+                     <img src="{{ url('assets/img/Analysis.svg') }}" alt="" class="mr-10px">
                     <span>Analysis</span>
                     </div>
                     <i class="fas fa-angle-down"></i>
@@ -85,15 +85,15 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" >
                     <div class=" py-2 collapse-inner rounded">
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/user-analysis.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/user-analysis.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">User Analysis</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/content-analysis.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/content-analysis.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Content Analysis</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/survey-report.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/survey-report.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Survey Report</a>
                         </div>
 
@@ -106,7 +106,7 @@
                 <a class="nav-link collapsed d-flex justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <div class="d-flex align-items-center ">
-                         <img src="{{ asset('assets/img/Management.svg') }}" alt="" class="mr-10px">
+                         <img src="{{ url('assets/img/Management.svg') }}" alt="" class="mr-10px">
                         <span>Management</span>
                         </div>
                         <i class="fas fa-angle-down"></i>
@@ -115,15 +115,15 @@
                     >
                     <div class=" py-2 collapse-inner rounded">
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/content-upload.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/content-upload.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Content Upload</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Content-managemnt.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Content-managemnt.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Content Management</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Category-and-tags.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Category-and-tags.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Category And Tags</a>
                         </div>
 
@@ -135,7 +135,7 @@
                 <a class="nav-link collapsed d-flex justify-content-between align-items-center" href="#" data-toggle="collapse" data-target="#collapseAffiliate"
                     aria-expanded="true" aria-controls="collapseAffiliate">
                     <div class="d-flex align-items-center ">
-                         <img src="{{ asset('assets/img/Affiliate.svg') }}" alt="" class="mr-10px">
+                         <img src="{{ url('assets/img/Affiliate.svg') }}" alt="" class="mr-10px">
                         <span>Affiliate</span>
                         </div>
                         <i class="fas fa-angle-down"></i>
@@ -144,23 +144,23 @@
                    >
                     <div class=" py-2 collapse-inner rounded">
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Analysis.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Analysis.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Analytics</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Campaign.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Campaign.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Campaign </a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Affiliate.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Affiliate.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Affiliate</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Sales-and-commissions.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Sales-and-commissions.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Sales And Commissions</a>
                         </div>
                         <div class="d-flex">
-                            <img src="{{ asset('assets/img/Settings.svg') }}" alt="" class="mr-10px">
+                            <img src="{{ url('assets/img/Settings.svg') }}" alt="" class="mr-10px">
                             <a class="collapse-item" href="#">Settings</a>
                         </div>
 
@@ -172,7 +172,7 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <img src="{{ asset('assets/img/Api-management.svg') }}" alt="">
+                    <img src="{{ url('assets/img/Api-management.svg') }}" alt="">
                     <span>API Management</span></a>
             </li>
 
@@ -182,13 +182,13 @@
              <!-- Nav Item - Invite People -->
              <li class="nav-item" style="margin-bottom: 10px !important;padding-right: 7px !important;">
                  <a class="nav-link"  href="tables.html">
-                      <img src="{{ asset('assets/img/Invite-people.svg') }}" alt="">
+                      <img src="{{ url('assets/img/Invite-people.svg') }}" alt="">
                      <span style="font-size: 12px !important; color: #858699;;">Invite People</span></a>
              </li>
                <!-- Nav Item - Help and support -->
              <li class="nav-item" style="margin-bottom: 10px !important;padding-right: 7px !important;">
                  <a class="nav-link" href="tables.html">
-                      <img src="{{ asset('assets/img/Help-and-support.svg') }}" alt="">
+                      <img src="{{ url('assets/img/Help-and-support.svg') }}" alt="">
                      <span style="font-size: 12px !important; color: #858699;">Help And Support</span></a>
              </li>
 
@@ -199,9 +199,9 @@
             <!-- Sidebar Message -->
             <div class="sidebar-card d-none d-lg-flex ">
                 <div class="cross ">
-                    <img src="{{ asset('assets/img/cross.svg') }}" alt="">
+                    <img src="{{ url('assets/img/cross.svg') }}" alt="">
                 </div>
-                <img src="{{ asset('assets/img/Import-Issues.svg') }}" alt="" class="align-self-start">
+                <img src="{{ url('assets/img/Import-Issues.svg') }}" alt="" class="align-self-start">
                <div class="message-card-container">
                 <h4 class="message-card-h4">Import Issues</h4>
                 <p style="font-size: 11px;font-weight: 400;color: #858699; line-height: 12.1px;">Use our Migration Assistant to copy issues from another service.</p>
@@ -222,7 +222,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand  topbar  static-top">
                     <button class="back-button">
-                         <img src="{{ asset('assets/img/Back-icon.svg') }}" alt="">
+                         <img src="{{ url('assets/img/Back-icon.svg') }}" alt="">
                         Back
                     </button>
 
@@ -241,12 +241,12 @@
                         </div>
                         <div class="date-wrapper">
                             <div>
-                                <img src="{{ asset('assets/img/Date.svg') }}" alt="">
+                                <img src="{{ url('assets/img/Date.svg') }}" alt="">
                                 <p>Jan 2, 2024</p>
                             </div>
                             <div>
                                 <p>Last 30 Days</p>
-                                <img src="{{ asset('assets/img/a-down.svg') }}" alt="">
+                                <img src="{{ url('assets/img/a-down.svg') }}" alt="">
                             </div>
                         </div>
 
@@ -359,11 +359,11 @@
 
 
     <!-- Bootstrap core JavaScript-->
-    <script src="{{ asset('assets/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url('assets/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{ asset('assets/js/sb-admin-2.js') }}"></script>
+    <script src="{{ url('assets/js/sb-admin-2.js') }}"></script>
 
     <!-- Page level plugins -->
 
@@ -371,7 +371,7 @@
 
     <!-- Page level custom scripts -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="{{ asset('assets/js/demo/chart-bar-demo.js') }}"></script>
+    <script src="{{ url('assets/js/demo/chart-bar-demo.js') }}"></script>
 
 
 
