@@ -51,7 +51,7 @@
                          <img src="{{ url('assets/img/search-icon.svg')}}" alt="">
                     </button>
                 </div>
-                <input type="text" class="search-input form-control border-0 small"
+                <input type="text" class="search-input border-0 small"
                     aria-label="Search" aria-describedby="basic-addon2">
 
             </div>
