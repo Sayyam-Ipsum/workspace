@@ -37,7 +37,7 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-between gap-3" href="index.html">
                 <div class="sidebar-brand-icon d-flex">
                     <!-- <i class="fas fa-laugh-wink"></i> -->
-                     <img src="public/assets/img/Logo.svg" alt="" class="mr-9px">
+                     <img src="{{ asset('assets/img/Logo.svg') }}" alt="" class="mr-9px">
                      <div class="sidebar-brand-text ">My Worksapce</div>
                     </div>
                     <img src="{{ asset('assets/img/_Avatar.svg') }}" alt="" class="mr-9px">
