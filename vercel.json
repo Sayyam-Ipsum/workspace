@@ -13,10 +13,10 @@
         }
     ],
     "env": {
-        "APP_ENV": "local",
-        "APP_DEBUG": "true",
-        "APP_URL": "https://your-vercel-deployment-url.vercel.app",
-        "APP_KEY": "base64:ZmXdiPj63otLnPhHVgINDnx/hs6g7E8oNITdwnnkxNA=",
+        "APP_ENV": "your-app-env-placeholder",
+        "APP_DEBUG": "your-app-debug-placeholder",
+        "APP_URL": "your-app-url-placeholder",
+        "APP_KEY": "your-app-key-placeholder",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
