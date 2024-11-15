@@ -16,7 +16,7 @@
         "APP_ENV": "your-app-env-placeholder",
         "APP_DEBUG": "your-app-debug-placeholder",
         "APP_URL": "your-app-url-placeholder",
-        "APP_KEY": "your-app-key-placeholder",
+        "APP_KEY": "base64:ZmXdiPj63otLnPhHVgINDnx/hs6g7E8oNITdwnnkxNA=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
@@ -27,6 +27,7 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "sqlite",
-        "DB_URL": "sqlite:///:memory:"
+        "DB_URL": "sqlite:///:memory:",
+        "FILESYSTEM_DISK": "public"
     }
 }
