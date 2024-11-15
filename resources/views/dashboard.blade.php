@@ -12,7 +12,7 @@
     <title> Dashboard</title>
 
     <!-- Custom fonts for this Dashboard-->
-    <link href="{{ url('assets/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ url('assets/fontawesome-free/all.min.css') }}" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -360,7 +360,7 @@
 
     <!-- Bootstrap core JavaScript-->
     <script src="{{ url('assets/jquery/jquery.min.js') }}"></script>
-    <script src="{{ url('assets/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url('assets/bootstrap/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="{{ url('assets/js/sb-admin-2.js') }}"></script>
@@ -371,7 +371,7 @@
 
     <!-- Page level custom scripts -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="{{ url('assets/js/demo/chart-bar-demo.js') }}"></script>
+    <script src="{{ url('assets/js/chart-bar-demo.js') }}"></script>
 
 
 
