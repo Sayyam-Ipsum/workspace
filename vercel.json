@@ -14,8 +14,8 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": true,
-        "APP_URL": "https://workspace-inspnknze-ahmed-sayyams-projects.vercel.app/",
+        "APP_DEBUG": "true",
+        "APP_URL": "your-app-url-placeholder",
         "APP_KEY": "base64:ZmXdiPj63otLnPhHVgINDnx/hs6g7E8oNITdwnnkxNA=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
