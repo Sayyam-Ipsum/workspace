@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('/assets/{type}/{filename}', function ($type, $filename) {
-    $allowedTypes = ['img', 'css', 'js', 'fontawesome-free', 'jquery', 'bootstrap'];
+    $allowedTypes = ['img', 'css', 'js', 'fontawesome-free', 'jquery', 'bootstrap', 'webfonts'];
 
     // Validate the directory type
     if (!in_array($type, $allowedTypes)) {
